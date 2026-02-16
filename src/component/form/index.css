@@ -1,0 +1,30 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    background-color: antiquewhite;
+    margin: 30px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.message {
+    font-size: 12px;
+    font-weight: bold;
+}

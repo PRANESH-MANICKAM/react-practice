@@ -1,6 +1,7 @@
 // import { Provider } from 'react-redux';
 import './App.css';
-import Input from './component/debounce';
+import LoginForm from './component/form';
+// import Input from './component/debounce';
 // import ProgressBarContainer from './component/progress';
 // import Users from './component/users';
 // import { store } from './store';
@@ -12,7 +13,8 @@ function App() {
       {/* <Provider store={store}>
         <Users />
       </Provider> */}
-      <Input />
+      {/* <Input /> */}
+      <LoginForm />
     </div>
   );
 }
