@@ -1,6 +1,7 @@
 // import { Provider } from 'react-redux';
 import './App.css';
-import LoginForm from './component/form';
+import ListUsers from './component/List';
+// import LoginForm from './component/form';
 // import Input from './component/debounce';
 // import ProgressBarContainer from './component/progress';
 // import Users from './component/users';
@@ -14,7 +15,8 @@ function App() {
         <Users />
       </Provider> */}
       {/* <Input /> */}
-      <LoginForm />
+      {/* <LoginForm /> */}
+      <ListUsers />
     </div>
   );
 }
