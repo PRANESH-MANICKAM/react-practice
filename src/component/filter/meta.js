@@ -1,0 +1,21 @@
+export const products = [
+    "Laptop", "Smartphone", "Tablet", "Smartwatch", "Headphones",
+    "Bluetooth Speaker", "Keyboard", "Mouse", "Monitor", "Printer",
+    "Scanner", "Webcam", "Microphone", "Router", "Hard Drive",
+    "SSD", "USB Flash Drive", "Power Bank", "Charger", "Extension Cord",
+    "Projector", "Graphics Card", "Motherboard", "Processor", "RAM",
+    "Cooling Fan", "Laptop Stand", "Phone Case", "Screen Protector", "Tripod",
+    "Camera", "Drone", "VR Headset", "Game Controller", "Gaming Console",
+    "Television", "Soundbar", "Home Theater", "Electric Kettle", "Microwave",
+    "Refrigerator", "Air Conditioner", "Air Purifier", "Ceiling Fan", "Table Fan",
+    "Water Heater", "Induction Cooktop", "Rice Cooker", "Mixer Grinder", "Toaster",
+    "Coffee Maker", "Dishwasher", "Washing Machine", "Clothes Dryer", "Iron Box",
+    "Vacuum Cleaner", "Steam Mop", "Hair Dryer", "Hair Straightener", "Trimmer",
+    "Electric Toothbrush", "Shaver", "Fitness Band", "Treadmill", "Exercise Bike",
+    "Dumbbells", "Yoga Mat", "Camping Tent", "Sleeping Bag", "Backpack",
+    "Suitcase", "Travel Pillow", "Flashlight", "Binoculars", "Compass",
+    "Smart Bulb", "LED Strip Light", "Desk Lamp", "Wall Clock", "Alarm Clock",
+    "Calculator", "Notebook", "Pen Set", "Office Chair", "Office Desk",
+    "Whiteboard", "Bookshelf", "Storage Box", "Laundry Basket", "Dustbin",
+    "Water Bottle", "Lunch Box", "Cutlery Set", "Dinner Set", "Cookware Set"
+];

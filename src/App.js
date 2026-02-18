@@ -1,9 +1,10 @@
 // import { Provider } from 'react-redux';
-import { QueryClientProvider } from '@tanstack/react-query';
+// import { QueryClientProvider } from '@tanstack/react-query';
 import './App.css';
-import EmployeeEdit from './component/input';
-import Pagination from './component/pagination';
-import { queryClient } from './component/pagination/client';
+import Filter from './component/filter';
+// import EmployeeEdit from './component/input';
+// import Pagination from './component/pagination';
+// import { queryClient } from './component/pagination/client';
 // import ListUsers from './component/List';
 // import LoginForm from './component/form';
 // import Input from './component/debounce';
@@ -24,7 +25,8 @@ function App() {
       {/* <QueryClientProvider client={queryClient}>
         <Pagination />
       </QueryClientProvider> */}
-      <EmployeeEdit />
+      {/* <EmployeeEdit /> */}
+      <Filter />
     </div>
   );
 }

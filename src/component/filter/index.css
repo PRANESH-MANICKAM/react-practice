@@ -1,0 +1,40 @@
+.filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+}
+
+.search-container {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.data-container {
+    margin-top: 100px;
+    width: 300px;
+    height: 590px;
+    overflow-y: auto;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.search {
+    width: 250px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item {
+    font-size: medium;
+    font-weight: bold;
+}
