@@ -1,7 +1,8 @@
 // import { Provider } from 'react-redux';
 // import { QueryClientProvider } from '@tanstack/react-query';
 import './App.css';
-import Filter from './component/filter';
+import Throttle from './component/throttle';
+// import Filter from './component/filter';
 // import EmployeeEdit from './component/input';
 // import Pagination from './component/pagination';
 // import { queryClient } from './component/pagination/client';
@@ -26,7 +27,8 @@ function App() {
         <Pagination />
       </QueryClientProvider> */}
       {/* <EmployeeEdit /> */}
-      <Filter />
+      {/* <Filter /> */}
+      <Throttle />
     </div>
   );
 }
