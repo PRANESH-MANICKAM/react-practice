@@ -1,0 +1,23 @@
+.pagination-controls {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    height: fit-content;
+    width: fit-content;
+    margin: 10px;
+}
+
+.button-highlight {
+    border: 2px solid aqua;
+}
+
+.pagination-container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

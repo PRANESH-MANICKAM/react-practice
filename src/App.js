@@ -1,6 +1,9 @@
 // import { Provider } from 'react-redux';
+import { QueryClientProvider } from '@tanstack/react-query';
 import './App.css';
-import ListUsers from './component/List';
+import Pagination from './component/pagination';
+import { queryClient } from './component/pagination/client';
+// import ListUsers from './component/List';
 // import LoginForm from './component/form';
 // import Input from './component/debounce';
 // import ProgressBarContainer from './component/progress';
@@ -16,7 +19,10 @@ function App() {
       </Provider> */}
       {/* <Input /> */}
       {/* <LoginForm /> */}
-      <ListUsers />
+      {/* <ListUsers /> */}
+      <QueryClientProvider client={queryClient}>
+        <Pagination />
+      </QueryClientProvider>
     </div>
   );
 }
