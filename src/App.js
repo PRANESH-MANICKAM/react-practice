@@ -1,7 +1,8 @@
 // import { Provider } from 'react-redux';
 // import { QueryClientProvider } from '@tanstack/react-query';
 import './App.css';
-import StopWatch from './component/stopWatch';
+import ComponentModal from './component/modal/modal';
+// import StopWatch from './component/stopWatch';
 // import Throttle from './component/throttle';
 // import Filter from './component/filter';
 // import EmployeeEdit from './component/input';
@@ -30,7 +31,8 @@ function App() {
       {/* <EmployeeEdit /> */}
       {/* <Filter /> */}
       {/* <Throttle /> */}
-      <StopWatch />
+      {/* <StopWatch /> */}
+      <ComponentModal />
     </div>
   );
 }
