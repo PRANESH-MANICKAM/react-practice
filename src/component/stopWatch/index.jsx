@@ -34,9 +34,9 @@ const StopWatch = () => {
   };
 
   const formatTime = (ms) => {
-    const minutes = Math.floor(ms / 60000).toString();
-    const seconds = Math.floor((ms % 60000) / 1000).toString();
-    const centiSeconds = Math.floor((ms % 1000) / 10).toString();
+    const minutes = Math.floor(ms / 60000).toString().padStart(2, 0);
+    const seconds = Math.floor((ms % 60000) / 1000).toString().padStart(2, 0);
+    const centiSeconds = Math.floor((ms % 1000) / 10).toString().padStart(2, 0);
     return `${minutes} : ${seconds} : ${centiSeconds}`;
   };
 
@@ -53,7 +53,7 @@ const StopWatch = () => {
         </button>
       </div>
       <div className="log-container">
-        {logs.length ? logs.map((log) => <p>{log}</p>) : <p>No Logs</p>}
+        {logs.length ? logs.map((log) => <p>{formatTime(log)}</p>) : <p>No Logs</p>}
       </div>
     </div>
   );
