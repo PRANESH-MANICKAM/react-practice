@@ -1,7 +1,8 @@
 // import { Provider } from 'react-redux';
 // import { QueryClientProvider } from '@tanstack/react-query';
 import './App.css';
-import ComponentModal from './component/modal/modal';
+import FileUpload from './component/file-upload';
+// import ComponentModal from './component/modal/modal';
 // import StopWatch from './component/stopWatch';
 // import Throttle from './component/throttle';
 // import Filter from './component/filter';
@@ -32,7 +33,8 @@ function App() {
       {/* <Filter /> */}
       {/* <Throttle /> */}
       {/* <StopWatch /> */}
-      <ComponentModal />
+      {/* <ComponentModal /> */}
+      <FileUpload />
     </div>
   );
 }
