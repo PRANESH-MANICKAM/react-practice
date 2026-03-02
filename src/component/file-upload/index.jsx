@@ -14,9 +14,7 @@ const FileUpload = () => {
 
     if (!selectedFile) return;
 
-    console.log(selectedFile);
-
-    const expectType = ["image/jepg", "application/pdf"];
+    const expectType = ["image/jpeg", "application/pdf"];
 
     if (!expectType.includes(selectedFile.type)) {
       setError("File type does not match");
